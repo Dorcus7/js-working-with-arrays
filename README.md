@@ -8,11 +8,11 @@
 
 - In JavaScript, array methods are built-in functions that can be called on arrays to perform various operations on their elements. These methods allow you to change, search, iterate, and perform other actions on the elements of an array conveniently and efficiently.
 
-
 ### Prep
+
 1. Connect your js file to your HTML file
 2. Open your code in the browser and open your console
 
-
 ### Exercises
+
 1. In the `js` file, follow the prompts to complete the exercises.
