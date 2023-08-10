@@ -1,3 +1,5 @@
+// FOR ALL EXERCISES WHERE YOU WORK WITH AN ARRAY, PRINT THE RESULTS AT EACH STEP!
+
 /********************** Exercise 1 **********************/
 
 // Go to a website of your choosing (a news site or a shopping site). Find examples of data that might be stored as arrays. Provide a description of the data below. 
@@ -11,10 +13,6 @@
 
 
 
-// Log the array to the console.
-
-
-
 /********************** Exercise 3 **********************/
 const shopping = ["bread", "milk", "cheese", "hummus", "noodles"];
 
@@ -25,18 +23,50 @@ const shopping = ["bread", "milk", "cheese", "hummus", "noodles"];
 shopping[0] = "rice";
 
 
+// Try changing the value "cheese" to "vegetables" using an index.
+
+// Log the value at index 2. Note that it is NOT the second value! Why is that?
+
+// Log the last value WITHOUT using a set number. That is, do NOT write: `shopping[4]`. You can use the `.length` to figure out what the last index is!
+
+// Now write the same code in the square brackets, using the `.length` property to calculate the last index, only with the `gems` array below instead of `shopping`. The solution should give you the last value in any array!
+
+const gems = ["ruby", "saphhire", "pearl", "steven", "amethyst", "garnet", "lapis lazuli", "peridot"]
 
 
 /********************** Exercise 4 **********************/
 
-const colors = ["red", "green", "blue", "yellow"];
-// Use the splice method to return the following array. ["red", "green", "yellow"]
+const cities = ["Oakland", "New York"];
 
 
+// Use an array method to add Memphis to the END of the array.
 
+// Use an array method to add Phoenix to the END of the array.
+
+// Use an array method to add Atlanta to the START of the array.
+
+// Use an array method to add Chicago and Denver to the END of the array with one method call.
+
+// Use an array method to remove the FIRST element of the array.
+
+// Use an array method to remove the LAST element of the array.
+
+// Log the final array to the console. It should look like this: ["Oakland", "New York", "Memphis", "Phoenix", "Chicago"]
 
 
 /********************** Exercise 5 **********************/
+
+const colors = ["red", "green", "blue", "yellow"];
+
+// Use the slice method on the above array to produce the following array: ["red", "green", "blue"]
+
+// Now use the slice method to produce the following array: ["green", "blue", "yellow"]
+
+// Next use the slice method to produce the following array: ["red", "green"]
+
+
+
+/********************** Exercise 6 **********************/
 
 const numbers = [5, 1, 8, 3, 2, 7, 4, 6, 9];
 
@@ -44,35 +74,12 @@ const numbers = [5, 1, 8, 3, 2, 7, 4, 6, 9];
 
 
 
-// Print the sorted array
 
-
-
-
-/********************** Exercise 6 **********************/
+/********************** Exercise 7 **********************/
 // The following array contains data about a user. How would you log the string 'Python' to the console?
 const userMember = ["Dava Sorbel", 795, ['Python', 'JavaScript', 'Ruby']];
 
-
-
-
-
-
-/********************** Exercise 7 **********************/
-
-const cities = ["Oakland", "New York"];
-
-
-// How would you dynamically add Memphis to the array of cities?
-
-
-//How would you dynamically add Atlanta and Denver to the array of cities at the same time?
-
-
-// How would you remove Oakland from the array? 
-
-
-// Log the final array to the console. 
+// How would you use that array to find the letter J? Remember that you can use indexes with arrays AND strings!
 
 
 /********************** Exercise 8 **********************/
