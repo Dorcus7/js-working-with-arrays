@@ -6,7 +6,9 @@
 
 ### Array Methods
 
-- In JavaScript, array methods are built-in functions that can be called on arrays to perform various operations on their elements. These methods allow you to change, search, iterate, and perform other actions on the elements of an array conveniently and efficiently.
+In JavaScript, array methods are built-in functions that can be called on arrays to perform various operations on their elements. These methods allow you to change, search, iterate, and perform other actions on the elements of an array conveniently and efficiently.
+
+A great resource for looking at array methods is [MDN's Array page](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array).
 
 ### Prep
 
