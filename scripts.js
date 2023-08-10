@@ -38,7 +38,7 @@ const colors = ["red", "green", "blue", "yellow"];
 
 /********************** Exercise 5 **********************/
 
-const numbers = [5, 1, 8, 3, 10, 2, 7, 4, 6, 9];
+const numbers = [5, 1, 8, 3, 2, 7, 4, 6, 9];
 
 // Sort the array in ascending order
 
