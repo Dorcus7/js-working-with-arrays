@@ -1,4 +1,4 @@
-/********************** Exercise 1  **********************/
+/********************** Exercise 1 **********************/
 
 // Go to a website of your choosing (a news site or a shopping site). Find examples of data that might be stored as arrays. Provide a description of the data below. 
 
@@ -6,7 +6,7 @@
 
 
 
-/********************** Exercise 2  **********************/
+/********************** Exercise 2 **********************/
 // Create an array of books to be sold in an online store. 
 
 
@@ -15,7 +15,7 @@
 
 
 
-/********************** Exercise 3  **********************/
+/********************** Exercise 3 **********************/
 const shopping = ["bread", "milk", "cheese", "hummus", "noodles"];
 
 // For the above array, log the string "bread" to the console.
@@ -27,7 +27,7 @@ shopping[0] = "rice";
 
 
 
-/********************** Exercise 4  **********************/
+/********************** Exercise 4 **********************/
 
 const colors = ["red", "green", "blue", "yellow"];
 // Use the splice method to return the following array. ["red", "green", "yellow"]
@@ -36,7 +36,7 @@ const colors = ["red", "green", "blue", "yellow"];
 
 
 
-/********************** Exercise 5  **********************/
+/********************** Exercise 5 **********************/
 
 const numbers = [5, 1, 8, 3, 10, 2, 7, 4, 6, 9];
 
@@ -49,7 +49,7 @@ const numbers = [5, 1, 8, 3, 10, 2, 7, 4, 6, 9];
 
 
 
-/********************** Exercise 6  **********************/
+/********************** Exercise 6 **********************/
 // The following array contains data about a user. How would you log the string 'Python' to the console?
 const userMember = ["Dava Sorbel", 795, ['Python', 'JavaScript', 'Ruby']];
 
@@ -58,7 +58,7 @@ const userMember = ["Dava Sorbel", 795, ['Python', 'JavaScript', 'Ruby']];
 
 
 
-/********************** Exercise 7  **********************/
+/********************** Exercise 7 **********************/
 
 const cities = ["Oakland", "New York"];
 
@@ -75,7 +75,7 @@ const cities = ["Oakland", "New York"];
 // Log the final array to the console. 
 
 
-/********************** Exercise 8  **********************/
+/********************** Exercise 8 **********************/
 
 const cityString = "Detroit,Atlanta,Birmingham,New Haven,Dallas,San Diego,Portland";
 
@@ -94,7 +94,7 @@ const cityString = "Detroit,Atlanta,Birmingham,New Haven,Dallas,San Diego,Portla
 // Using the .join() method, how would you turn the list of cities back into a string with spaces after the commas?
 
 
-/********************** Exercise 9  **********************/
+/********************** Exercise 9 **********************/
 
 
 let myString = 'Ryu+Ken+Chun-Li+Cammy+Guile+Sakura+Sagat+Juri';
