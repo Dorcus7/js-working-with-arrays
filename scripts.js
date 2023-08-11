@@ -5,34 +5,53 @@
 // Go to a website of your choosing (a news site or a shopping site). Find examples of data that might be stored as arrays. Provide a description of the data below. 
 
 
+// we can use all methodes used in class;
+
+// include; 
+// increase quantity;
+// identify;
+// Perform;
+// etc
+
 
 
 
 /********************** Exercise 2 **********************/
 // Create an array of books to be sold in an online store. 
-
+// let book1 = "rich kid";
+// let book2 = "balerina";
+// let book3 ="indigo";
+// let book4 =" fruit";
+// let books =['rich kid','balerina','indigo','school','fruits'];
 
 
 /********************** Exercise 3 **********************/
 const shopping = ["bread", "milk", "cheese", "hummus", "noodles"];
 
-// For the above array, log the string "bread" to the console.
+// For the above array, log the string "bread" to the consol
+
 
 
 // After the following code is run, what will happen? Console log the new array.
 shopping[0] = "rice";
+// Log the value at index 2. Note that it is NOT the second value! Why is that?
+
+//Answer: because index starts from 0
+
 
 
 // Try changing the value "cheese" to "vegetables" using an index.
-
-// Log the value at index 2. Note that it is NOT the second value! Why is that?
+shopping[2]="Vegetables";
 
 // Log the last value WITHOUT using a set number. That is, do NOT write: `shopping[4]`. You can use the `.length` to figure out what the last index is!
+shopping[shopping.length-1];
+
+
 
 // Now write the same code in the square brackets, using the `.length` property to calculate the last index, only with the `gems` array below instead of `shopping`. The solution should give you the last value in ANY array!
 
 const gems = ["ruby", "saphhire", "pearl", "steven", "amethyst", "garnet", "lapis lazuli", "peridot"]
-
+gems[gems.length-1];
 
 /********************** Exercise 4 **********************/
 
