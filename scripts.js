@@ -26,14 +26,14 @@
 
 
 /********************** Exercise 3 **********************/
-const shopping = ["bread", "milk", "cheese", "hummus", "noodles"];
+//const shopping = ["bread", "milk", "cheese", "hummus", "noodles"];
 
 // For the above array, log the string "bread" to the consol
 
 
 
 // After the following code is run, what will happen? Console log the new array.
-shopping[0] = "rice";
+//shopping[0] = "rice";
 // Log the value at index 2. Note that it is NOT the second value! Why is that?
 
 //Answer: because index starts from 0
@@ -41,37 +41,49 @@ shopping[0] = "rice";
 
 
 // Try changing the value "cheese" to "vegetables" using an index.
-shopping[2]="Vegetables";
+//shopping[2]="Vegetables";
 
 // Log the last value WITHOUT using a set number. That is, do NOT write: `shopping[4]`. You can use the `.length` to figure out what the last index is!
-shopping[shopping.length-1];
+//shopping[shopping.length-1];
 
 
 
 // Now write the same code in the square brackets, using the `.length` property to calculate the last index, only with the `gems` array below instead of `shopping`. The solution should give you the last value in ANY array!
 
-const gems = ["ruby", "saphhire", "pearl", "steven", "amethyst", "garnet", "lapis lazuli", "peridot"]
-gems[gems.length-1];
+//const gems = ["ruby", "saphhire", "pearl", "steven", "amethyst", "garnet", "lapis lazuli", "peridot"]
+//gems[gems.length-1];
+
 
 /********************** Exercise 4 **********************/
 
-const cities = ["Oakland", "New York"];
+//const cities = ["Oakland", "New York"];
 
 
 // Use an array method to add Memphis to the END of the array.
 
+const cities = ["Oakland","New york"];
+
+ cities.push("Memphis");
+
 // Use an array method to add Phoenix to the END of the array.
+cities.push("phoenix");
 
 // Use an array method to add Atlanta to the START of the array.
-
+cities.unshift("Atlanta");
 // Use an array method to add Chicago and Denver to the END of the array with one method call.
+
+cities.push("Chicago","Denver");
 
 // Use an array method to remove the FIRST element of the array.
 
+cities.shift("Oakland");
+
 // Use an array method to remove the LAST element of the array.
+cities.pop("Denver");
 
 // Log the final array to the console. It should look like this: ["Oakland", "New York", "Memphis", "Phoenix", "Chicago"]
 
+cities.unshift("Phoenix","Memphis","New York","Oakland");
 
 /********************** Exercise 5 **********************/
 
